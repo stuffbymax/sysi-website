@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Text Editor</title>
+    <title>Simple Bash Text Editor</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         /* Custom CSS styles */
@@ -92,6 +92,7 @@
             color: #a0aec0;
             margin-bottom: 5px;
         }
+
         .program-description li::before {
             content: "\2022";
             color: #38b2ac;
@@ -161,13 +162,35 @@
         .logo img:hover {
             transform: scale(1.1); /* Add scaling effect on hover */
         }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 0%;
+}
+
+.nav li {
+    list-style: none;
+}
+		
     </style>
 </head>
 <body>
+	
+		<div class="nav">
+        <ul class="overview">
+    <li><a href="index.html" style="color:DodgerBlue;">home</a></li>
+    <li><a href="update.html" style="color:DodgerBlue;">Updates</a></li>
+</ul>
+</div>
     <div class="container">
         <h1>Welcome to the SBTE</h1>
         <div class="logo">
-        <img src="./pictures/SBTE.png" alt="SBTE" onclick="openImage('./pictures/STE.png')">
+        <img src="./pictures/SBTE.png" alt="SBTE" onclick="openImage('./pictures/SBTE.png')">
     </div>
         <h1>Simple Text Editor</h1>
         <div class="gallery">
@@ -242,23 +265,23 @@
         <a href="https://github.com/stuffbymax/simple-text-editor/tags" class="button">Download Text Editor</a>
 		<br>
         <br>
+        <br>
 		<p>also you can contribute to the code</p>
 		<a href="https://github.com/stuffbymax/simple-text-editor" class="button" >contribute to the code</a>
         <br>
-<br>
-        <h1 class="h1">this project is freee but you can DONATE :)</h1>
-
-            <div class="social-icons">
-        <a href="https://eu-solidarity-ukraine.ec.europa.eu/eu-stands-ukraine_en"><img src="./pictures/peepo-ukraine-ukraine.gif" width="100" height="100" alt="peepo-ukraine-ukraine"></a>
-
-
-    </div>
+        <br>
+        <br>
     
-    <div class="container">
-    <div class="social-icons">
-        <a href="https://www.youtube.com/channel/UCPImH2euMdVLB0WD3w1GDtw"><img src="./pictures/socialmedia/youtube.png" alt="youtube"></a>
-        <a href="https://github.com/stuffbymax?tab=overview&from=2024-05-01&to=2024-05-03"><img src="./pictures/socialmedia/github-mark/github-mark-white.png" alt="github"></a>
-        
+    <h1 class="h1">Support ukraine</h1>
+        <div class="social-icons">
+            <a href="https://eu-solidarity-ukraine.ec.europa.eu/eu-stands-ukraine_en"><img src="./pictures/peepo-ukraine-ukraine.gif" width="100" height="100" alt="peepo-ukraine-ukraine"></a>
+            </div>
+			<h1 class="h1">follow me on</h1>
+			 <div class="social-icons">
+			<a href="https://www.youtube.com/channel/UCPImH2euMdVLB0WD3w1GDtw"><img src="./pictures/socialmedia/youtube.png" alt="youtube"></a>
+			<a href="https://mastodon.social/@stuffbymax"><img src="./pictures/socialmedia/mastodon.social.png" alt="mastodon.social"></a>
+            <a href="https://github.com/stuffbymax?tab=overview&from=2024-05-01&to=2024-05-03"><img src="./pictures/socialmedia/github-mark/github-mark-white.png" alt="github"></a>
+        </div>
     </div>
 </body>
 </html>
