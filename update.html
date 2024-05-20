@@ -161,26 +161,42 @@
         .logo img:hover {
             transform: scale(1.1); /* Add scaling effect on hover */
         }
-		ul {
+        ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-.nav {
-    display: flex;
-    justify-content: space-around;
-    width: 0%;
-}
 
-.nav li {
-    list-style: none;
-}
+.navbar {
+            background-color: #2d3748;
+            padding: 10px 0;
+        }
+        .navbar ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        .navbar li {
+            margin: 0 10px;
+        }
+        .navbar a {
+            color: #e2e8f0;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .navbar a:hover {
+            background-color: #4a5568;
+        }
 		
     </style>
 </head>
 <body>
 	
-		<div class="nav">
+		<div class="navbar">
         <ul class="overview">
     <li><a href="index.html" style="color:DodgerBlue;">home</a></li>
     <li><a href="update.html" style="color:DodgerBlue;">Updates</a></li>
