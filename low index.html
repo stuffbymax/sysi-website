@@ -3,126 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Updates- Simple Bash Text Editor</title>
+    <title>Index Sysi</title>
     <style>
-        /* Basic CSS styles */
         body {
             font-family: Arial, sans-serif;
             background-color: #1a202c;
             color: #e2e8f0;
             margin: 0;
-            padding: 0;
+            padding: 10px;
         }
         .container {
             max-width: 800px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 10px;
             text-align: center;
         }
         h1 {
-            font-size: 2rem;
+            font-size: 1.5rem;
+            font-weight: bold;
             color: #38b2ac;
             margin-bottom: 20px;
         }
         p {
             font-size: 1rem;
             color: #a0aec0;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
         ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
+            list-style-type: disc;
+            padding-left: 20px;
+            text-align: left;
         }
         li {
+            font-size: 1rem;
+            color: #a0aec0;
             margin-bottom: 10px;
         }
         a {
             color: #38b2ac;
             text-decoration: none;
         }
-        .button {
+        a.button {
             display: inline-block;
-            padding: 10px 20px;
+            padding: 10px 15px;
             background-color: #38b2ac;
             color: #fff;
+            text-decoration: none;
             border-radius: 5px;
-            transition: background-color 0.3s ease;
+            margin: 5px;
         }
-        .button:hover {
+        a.button:hover {
             background-color: #319795;
         }
-        /* Navbar styles */
         .navbar {
-            background-color: #2d3748;
-            padding: 10px 0;
-        }
-        .navbar ul {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            display: flex;
-            justify-content: center;
-        }
-        .navbar li {
-            margin: 0 10px;
+            background-color: #3a475e;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
         }
         .navbar a {
             color: #e2e8f0;
             text-decoration: none;
             padding: 5px 10px;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
+            border-radius: 3px;
+            margin: 0 5px;
         }
         .navbar a:hover {
-            background-color: #4a5568;
+            background-color: #093562;
+        }
+        .gallery img {
+            
+            
+            margin: 5px;
+            border: 2px solid #38b2ac;
+        }
+        .social-icons img {
+            width: 30px;
+            height: auto;
+            margin: 0 5px;
         }
     </style>
 </head>
 <body>
     <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="./low-index.html">Low-End Version</a>
+    </div>
+    <div class="container">
+        <h1>Welcome to Sysi</h1>
+        <img src="./pictures/1.png" alt="sysi">
+        <h1>System Information</h1>
+        <div class="gallery">
+            <a href="./pictures/2.png" target="_blank"><img src="./pictures/2.png" alt="sysi 2" width="187" height="200"></a>
+            <a href="./pictures/3.png" target="_blank"><img src="./pictures/3.png" alt="sysi 3" width="187" height="200"></a>
+            <a href="./pictures/4.png" target="_blank"><img src="./pictures/4.png" alt="sysi 4" width="187" height="200"></a>
+            <a href="./pictures/5.png" target="_blank"><img src="./pictures/5.png" alt="sysi 5" width="187" height="200"></a>
+            <a href="./pictures/6.png" target="_blank"><img src="./pictures/6.png" alt="sysi 6" width="187" height="200"></a>
+            <a href="./pictures/7.png" target="_blank"><img src="./pictures/7.png" alt="sysi 7" width="187" height="200"></a>
+            <a href="./pictures/8.png" target="_blank"><img src="./pictures/8.png" alt="sysi 8" width="187" height="200"></a>
+            <a href="./pictures/9.png" target="_blank"><img src="./pictures/9.png" alt="sysi 9" width="187" height="200"></a>
+            <a href="./pictures/9.png" target="_blank"><img src="./pictures/10.png" alt="sysi 10" width="187" height="200"></a>
+        </div>
+        <p>The sysi is designed to provide comprehensive system information on Linux-based operating systems. It is meant to be a versatile tool that collects and displays essential details about the system's hardware, software, and usage statistics.</p>
+    </div>
+
+    <div class="container">
+        <h1>About the Sysi</h1>
+        <p>The sysi is designed to provide comprehensive system information on Linux-based operating systems. It is meant to be a versatile tool that collects and displays essential details about the system's hardware, software, and usage statistics.</p>
+        <p>Here's a brief overview of its functionalities:</p>
         <ul>
-            <li><a href="./low index.html" style="color:DodgerBlue;">home</a></li>
-            <li><a href="./low update.html" style="color:DodgerBlue;">Updates</a></li>
-            <li><a href="./index.html" style="color:DodgerBlue;">modern versionversion</a></li>
+            <li><strong>Operating System Information</strong>: Displays OS name, kernel version, architecture, and more.</li>
+            <li><strong>Hardware Information</strong>: Provides details about the host, CPU model, cores, threads, and architecture.</li>
+            <li><strong>Temperature Monitoring</strong>: Retrieves and displays CPU and GPU temperatures using available system utilities.</li>
+            <li><strong>Memory and Storage</strong>: Shows memory (RAM) and swap usage, as well as disk usage statistics.</li>
+            <li><strong>Disk I/O Statistics</strong>: Indicators of how well your storage devices are performing and handling data transfers.</li>
+            <li><strong>System Uptime</strong>: Indicates how long the system has been running.</li>
+            <li><strong>Package Management</strong>: Counts installed packages using package managers.</li>
+            <li><strong>User Interface Themes</strong>: Fetches information about GTK theme, icon theme, and cursor theme.</li>
+            <li><strong>Additional Information</strong>: Includes options for displaying network interfaces, top CPU and memory-consuming processes, system logs, and system load.</li>
         </ul>
-    </div>
-    <div class="container" id="overview">
-        <h1>Welcome to the SBTE</h1>
-        <p>This project aims to provide a simple text editor with basic functionalities like creating, opening, editing, and saving text files.</p>
-    </div>
-    <div class="container" id="about">
-        <h1>About the Text Editor</h1>
-        <ul>
-            <li>Create a new file</li>
-            <li>Open an existing file</li>
-            <li>Edit an existing file</li>
-            <li>Save file</li>
-            <li>Save As</li>
-            <li>Search for a word</li>
-            <li>Replace a word</li>
-            <li>Word Count</li>
-            <li>Support plugins</li>
-            <li>Delete a file</li>
-            <li>Exit</li>
-        </ul>
-    </div>
-    <div class="container" id="vim">
-        <h1>Vim Version</h1>
-        <ul>
-            <li>Create a new file</li>
-            <li>Open an existing file</li>
-            <li>Edit an existing file</li>
-            <li>Save file</li>
-            <li>Save As</li>
-            <li>Support plugins</li>
-            <li>Delete a file</li>
-            <li>Exit</li>
-        </ul>
-    </div>
-    <div class="container" id="download">
-        <p>This text editor is <strong>Free Libre Open Source Software (FLOSS)</strong>, meaning it is freely available for anyone to use and modify.</p>
-        <p>To get started, you can <a href="https://github.com/stuffbymax/simple-text-editor/tags" class="button">Download Text Editor</a> or <a href="https://github.com/stuffbymax/simple-text-editor" class="button">Contribute to the Code</a>.</p>
+
+        <p>This project is <strong>Free Libre Open Source Software (FLOSS)</strong>, meaning it is freely available for anyone to use and modify.</p>
+        <p>To get started, you can download the sysi:</p>
+        <a href="https://github.com/stuffbymax/sysi/releases" class="button">Download Sysi</a>
+        <p>Also, you can contribute to the project:</p>
+        <a href="https://github.com/stuffbymax/sysi" class="button">Contribute to the Project</a>
+
+        <h1>Support Ukraine</h1>
+        <a href="https://eu-solidarity-ukraine.ec.europa.eu/eu-stands-ukraine_en"><img src="./pictures/peepo-ukraine-ukraine.gif" width="100" height="100" alt="Support Ukraine"></a>
+
+        <h1>Donate</h1>
+        <div id="donate-button-container">
+            <div id="donate-button"></div>
+            <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+            <script>
+                PayPal.Donation.Button({
+                    env: 'production',
+                    hosted_button_id: 'Y8HSM2L8BCFRS',
+                    image: {
+                        src: 'https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif',
+                        alt: 'Donate with PayPal button',
+                        title: 'PayPal - The safer, easier way to pay online!',
+                    }
+                }).render('#donate-button');
+            </script>
+        </div>
+
+        <h1>Follow Me On</h1>
+        <div class="social-icons">
+            <a href="https://www.youtube.com/channel/UCPImH2euMdVLB0WD3w1GDtw"><img src="./pictures/socialmedia/youtube.png" alt="YouTube"></a>
+            <a href="https://mastodon.social/@stuffbymax"><img src="./pictures/socialmedia/mastodon.social.png" alt="Mastodon"></a>
+            <a href="https://github.com/stuffbymax?tab=overview&from=2024-05-01&to=2024-05-03"><img src="./pictures/socialmedia/github-mark/github-mark-white.png" alt="GitHub"></a>
+        </div>
     </div>
 </body>
 </html>
